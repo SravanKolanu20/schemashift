@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/SravanKolanu20/schemashift/dialect"
+	"github.com/sravankolanu20/schemashift/dialect"
 )
 
 // LockResult represents the outcome of a lock acquisition attempt.

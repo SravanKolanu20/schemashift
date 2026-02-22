@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/SravanKolanu20/schemashift/dialect"
+	"github.com/sravankolanu20/schemashift/dialect"
 )
 
 // CheckpointState represents the saved state of a migration at a point in time.

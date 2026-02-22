@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/SravanKolanu20/schemashift/dialect"
+	"github.com/sravankolanu20/schemashift/dialect"
 )
 
 // State represents the current execution state of a migration.

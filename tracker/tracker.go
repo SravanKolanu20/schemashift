@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/SravanKolanu20/schemashift/dialect"
-	"github.com/SravanKolanu20/schemashift/migration"
+	"github.com/sravankolanu20/schemashift/dialect"
+	"github.com/sravankolanu20/schemashift/migration"
 )
 
 // Record is a single row in the _schemashift_migrations table.

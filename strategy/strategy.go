@@ -5,9 +5,9 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/SravanKolanu20/schemashift/dialect"
-	"github.com/SravanKolanu20/schemashift/hooks"
-	"github.com/SravanKolanu20/schemashift/migration"
+	"github.com/sravankolanu20/schemashift/dialect"
+	"github.com/sravankolanu20/schemashift/hooks"
+	"github.com/sravankolanu20/schemashift/migration"
 )
 
 // Executor is the interface every strategy must implement.

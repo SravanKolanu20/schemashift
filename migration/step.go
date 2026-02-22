@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/SravanKolanu20/schemashift/dialect"
+	"github.com/sravankolanu20/schemashift/dialect"
 )
 
 // StrategyHint tells the execution engine which migration strategy to use

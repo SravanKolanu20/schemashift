@@ -1,4 +1,4 @@
-module github.com/SravanKolanu20/schemashift
+module github.com/sravankolanu20/schemashift
 
 go 1.22
 

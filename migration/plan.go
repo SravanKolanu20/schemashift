@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/SravanKolanu20/schemashift/dialect"
+	"github.com/sravankolanu20/schemashift/dialect"
 )
 
 // PlanEntry represents a single migration scheduled for execution

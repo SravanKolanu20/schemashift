@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/SravanKolanu20/schemashift/dialect"
-	"github.com/SravanKolanu20/schemashift/hooks"
-	"github.com/SravanKolanu20/schemashift/lock"
-	"github.com/SravanKolanu20/schemashift/migration"
-	"github.com/SravanKolanu20/schemashift/strategy"
-	"github.com/SravanKolanu20/schemashift/tracker"
+	"github.com/sravankolanu20/schemashift/dialect"
+	"github.com/sravankolanu20/schemashift/hooks"
+	"github.com/sravankolanu20/schemashift/lock"
+	"github.com/sravankolanu20/schemashift/migration"
+	"github.com/sravankolanu20/schemashift/strategy"
+	"github.com/sravankolanu20/schemashift/tracker"
 )
 
 // Version is the current schemashift library version.

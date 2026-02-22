@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SravanKolanu20/schemashift/migration"
+	"github.com/sravankolanu20/schemashift/migration"
 )
 
 // EventKind identifies what type of event occurred.

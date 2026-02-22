@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/SravanKolanu20/schemashift/dialect"
-	"github.com/SravanKolanu20/schemashift/hooks"
-	"github.com/SravanKolanu20/schemashift/migration"
+	"github.com/sravankolanu20/schemashift/dialect"
+	"github.com/sravankolanu20/schemashift/hooks"
+	"github.com/sravankolanu20/schemashift/migration"
 )
 
 // DualWrite implements the dual-write strategy for zero-downtime column changes.
