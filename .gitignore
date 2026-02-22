@@ -1,0 +1,152 @@
+# ─── Go ───────────────────────────────────────────────────────────────────────
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of `go build`
+/schemashift
+/schemashift-*
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Dependency downloads (vendor directory)
+vendor/
+
+# Coverage output
+*.out
+coverage.html
+coverage.txt
+
+# CPU / memory profiles
+*.prof
+*.pprof
+cpu.out
+mem.out
+
+# ─── Build & Release ──────────────────────────────────────────────────────────
+
+# goreleaser output
+dist/
+
+# Binary output directories
+bin/
+build/
+out/
+
+# ─── Testing & Examples ───────────────────────────────────────────────────────
+
+# SQLite test databases created during tests
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Test fixture outputs
+testdata/output/
+testdata/tmp/
+
+# Integration test artifacts
+examples/postgres/data/
+examples/mysql/data/
+examples/sqlite/*.db
+
+# ─── Environment & Config ─────────────────────────────────────────────────────
+
+# Local environment files — never commit secrets
+.env
+.env.local
+.env.*.local
+.envrc
+
+# Database connection configs
+config.local.yaml
+config.local.json
+
+# ─── IDE & Editor ─────────────────────────────────────────────────────────────
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# GoLand / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Vim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Zed
+.zed/
+
+# ─── OS Generated ─────────────────────────────────────────────────────────────
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+Icon
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ─── Docker & CI ──────────────────────────────────────────────────────────────
+
+# Docker override files (base docker-compose.yml is committed)
+docker-compose.override.yml
+docker-compose.local.yml
+
+# CI artifacts
+.cache/
+.tmp/
+
+# ─── Documentation ────────────────────────────────────────────────────────────
+
+# Generated docs (godoc output)
+docs/generated/
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+
+*.log
+logs/
